@@ -1,0 +1,50 @@
+{
+  "name": "artwork-muhammad-ahmed",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "@jam3/webgl-components": "^0.0.8",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "lil-gui": "^0.16.1",
+    "query-string": "^7.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0",
+    "three": "^0.141.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "publish": "cd ../../gallery && npm i && npm run publish"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "artwork": {
+    "title": "Please Dune Come Alive",
+    "artist": "Muhammad Ahmed",
+    "description": "An aesthetic environment meant to mimic an endless and everlasting desert sunset from which over time an unusually mesmerizing, shapeshifting, and almost life-like spherical blob of sand particles has come into being. The artwork draws the viewer's attention to examine the blob and feel both pleased and puzzled...",
+    "tags": "threejs, webgl, shaders, sphere, desert, sunset"
+  }
+}
